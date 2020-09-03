@@ -14,5 +14,5 @@ npm install
 
 Para correr la aplicación
 ```
-ng run start:dev
+npm run start:dev
 ```

@@ -18,14 +18,16 @@ npm run start:dev
 ```
 
 ## ENDPOINTS 
-(http://localhost:3000/api)
-* POST /celulares            Añadir nuevo celular
-* GET /celulares             Obtener todos los celulares
-* GET /celulares/:id         Obtener celular por id
-* PUT /celulares/:id         Editar info de cel
-* DELETE /celulares/:id      Eliminar celular
+ENDPOINTS DESARROLLLO: (http://localhost:3000/api) 
+ENDPOINTS PRODUCCION:  (https://celulares-backend.herokuapp.com/api)
+
+* POST /celulares -----------> Añadir nuevo celular
+* GET /celulares  -----------> Obtener todos los celulares
+* GET /celulares/:id --------> Obtener celular por id
+* PUT /celulares/:id --------> Editar información de celular
+* DELETE /celulares/:id -----> Eliminar celular
 
 ### Campos del modelo Celular
-* id - tipo: int, autoincremental
+* id - tipo: int, autoincremental (obligatorio)
 * marca - tipo: string  (obligatorio)
 * modelo - tipo: string (obligatorio)

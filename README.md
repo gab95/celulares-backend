@@ -14,7 +14,7 @@ npm install
 
 Para correr la aplicación
 ```
-npm run start:dev
+npm run dev
 ```
 
 ## ENDPOINTS 

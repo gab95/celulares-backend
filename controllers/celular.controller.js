@@ -24,7 +24,7 @@ exports.nuevoCelular = async (req, res, next) => {
       modelo,
     });
 
-    return res.status(200).json({
+    return res.status(201).json({
       ok: true,
       celular,
     });
